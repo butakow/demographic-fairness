@@ -157,6 +157,8 @@ async def Search(config, init):
         q += f" list:{config.Members_list}"
     if config.Filter_retweets:
         q += f" exclude:nativeretweets exclude:retweets"
+    if config.Lang:
+        q += f" lang:{config.Lang}"
     if config.Custom_query:
         q = config.Custom_query
 

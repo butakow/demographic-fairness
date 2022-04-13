@@ -1,5 +1,5 @@
 # Demographic Fairness
-This is for a research project to determine whether classifiers perform similarly across demographic (for example gender, racial) groups and are therefore fair.
+This is for a research project to determine whether gender bias exists in Tweets related to computer science education, which affects fairness.
 
 ## Setup
 
