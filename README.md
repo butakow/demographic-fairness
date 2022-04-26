@@ -5,13 +5,11 @@ This is for a research project to determine whether gender bias exists in Tweets
 
 1. Install [Anaconda](https://www.anaconda.com/products/individual).
 
-Use an Anaconda Prompt for the following steps:
-
 2. Create and activate an environment:
 
    ```
-   conda create -n <env name> python=3.9
-   activate <env name>
+   conda create -n <env name> python=3.10
+   conda activate <env name>
    ```
 
 3. Clone the repository and install the requirements:
@@ -21,5 +19,21 @@ Use an Anaconda Prompt for the following steps:
    cd demographic-fairness
    pip install -r requirements.txt
    ```
-
    
+4. Download the model:
+
+   ```
+   python download.py
+   ```
+
+5. Predict gender framework class probabilities:
+
+   ```
+   python predict.py
+   ```
+
+6. Analyze:
+
+   ```
+   python fairnessanalysis.py
+   ```

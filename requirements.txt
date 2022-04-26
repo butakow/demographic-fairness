@@ -11,3 +11,7 @@ schedule
 geopy
 fake-useragent
 googletransx
+parlai
+torch
+pytorch-pretrained-bert
+matplotlib
